@@ -1,5 +1,5 @@
 // ===== GUARDA DE AUTENTICAÇÃO =====
-// Redireciona para o login se o usuário não estiver autenticado.
+// Redireciona para o login (index.html) se o usuário não estiver autenticado.
 (function () {
     if (!localStorage.getItem('empireads-user-name')) {
         window.location.replace('index.html');
